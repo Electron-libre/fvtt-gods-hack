@@ -1,0 +1,51 @@
+{
+  "id": "gods-hack",
+  "title": "GODS Hack",
+  "description": "The GODS Hack system for FoundryVTT!",
+  "authors": [
+    {
+      "name": "Source Racine"
+    }
+  ],
+  "url": "https://github.com/Electron-libre/fvtt-gods-hack",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "https://github.com/Electron-libre/fvtt-gods-hack/issues",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/gods-hack/assets/anvil-impact.png",
+      "thumbnail": "systems/gods-hack/assets/anvil-impact.png"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 12,
+    "verified": "12.331"
+  },
+  "esmodules": ["module/gods-hack.mjs"],
+  "styles": ["css/gods-hack.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json"
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/Electron-libre/fvtt-gods-hack/main/system.json",
+  "download": "https://github.com/Electron-libre/fvtt-gods-hack/archive/refs/tags/release-0.0.1.zip",
+  "background": "systems/gods-hack/assets/anvil-impact.png",
+  "gridDistance": 1.5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power"
+}
